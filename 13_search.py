@@ -21,19 +21,22 @@ b = [3,4,1,2,3,4,5,6,1,3,2] # 모든 3을 찾아보세요.
 # print(f'3의 값은 {idx}번에 있다.')
 
 # 다른방법1 while 함수를 활용해보자
-# idx = 0
-# while True:
-#     idx = b.index(3, idx)
-#     print(f'3의 값은 {idx}번에 있다.')
-#     idx += 1
+# 코드 리뷰
+# 무슨 목적인지 설명
+
+idx = 0
+while True: # 멈추지 않고 계속 돌림
+    idx = b.index(3, idx)
+    print(f'3의 값은 {idx}번에 있다.')
+    idx += 1
 
 # 다른방법2 for 함수와 if 함수를 활용해보자
-idx = 0
-for n in b:
-    # print(f'{idx}:{n}')
-    if n == 3:
-        print(f'3이 있는 인덱스 : {idx}')
-    idx += 1
+# idx = 0
+# for n in b:
+#     # print(f'{idx}:{n}')
+#     if n == 3:
+#         print(f'3이 있는 인덱스 : {idx}')
+#     idx += 1
 
 # 리스트 요소 삭제
 # del a[3] 과 a.remove(3)
@@ -75,44 +78,3 @@ while True:
     if a.count(3) == 0:
         break
 print(a)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
