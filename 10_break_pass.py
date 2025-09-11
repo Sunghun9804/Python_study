@@ -24,7 +24,7 @@ for i in range(1,10):
         continue
     # 방법3
     # if (i == 3) | (i == 6) | (i == 9): # i가 3, 6, 9 라면? 밑에 내용 출력
-    #     continue # 무시하라는 의미, 위에 조건이 i == 3 이므로 3만 제외하고 반복문 실행
+    #     continue # 무시하라는 의미
 
     print(i)
 
