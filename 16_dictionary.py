@@ -23,3 +23,8 @@ print(a)
 # 사전에서 특정 요소 삭제
 del a['second']
 print(a)
+
+# 사전에 특정 요소를 꺼내보자(사용법은 List 와 비슷하다.)
+# key를 직접 입력
+print(dic2['name'])
+print(dic2['friends'])
