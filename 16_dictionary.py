@@ -23,7 +23,3 @@ print(a)
 # 사전에서 특정 요소 삭제
 del a['second']
 print(a)
-
-
-
-
