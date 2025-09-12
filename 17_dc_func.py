@@ -79,3 +79,7 @@ print(f'Jung이 있는가? {yn}')
 # update : 이미 있는 key면 수정을, 없는 key면 추가를 하는 함수
 dic.update({'name':'홍길동','age':30,'married':False})
 print(dic)
+
+# dic.clear() : 사전안의 내용을 모두 지운다.
+dic.clear()
+print(dic)
