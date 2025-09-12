@@ -18,3 +18,11 @@ print(f'교집합2 : {s1.intersection(s2)}')
 # 합집합(union)
 print(f'합집합1 : {s1|s2}')
 print(f'합집합2 : {s1.union(s2)}')
+
+# 차집합(minus|difference) -> 차는 차이, 얼마나 달라? 의미
+print(f'차집합:{s1-s2}')
+print(f'차집합:{s2-s1}')
+
+# 값 1개 추가하기
+# 여러개 추가하기
+# 특정값 제거
