@@ -6,3 +6,15 @@ print(number_set)
 # 그래서 중복 제거용도로 사용된다.
 str_set = set("HelloWord")
 print(str_set) # l,o 1개씩만 출력
+
+# set 들을 이용해서 집합을 구현할 수 있다.
+s1 = set([1,2,3,4,5,6])
+s2 = set([4,5,6,7,8,9])
+
+# 교집합(intersection)
+print(f'교집합1 : {s1 & s2}')
+print(f'교집합2 : {s1.intersection(s2)}')
+
+# 합집합(union)
+print(f'합집합1 : {s1|s2}')
+print(f'합집합2 : {s1.union(s2)}')
