@@ -44,3 +44,34 @@ for item in dic.items():
     print(item)
     print(f'{item[0]}={item[1]}')
 
+members = {
+    'kim':63, 'lee':88, 'park':97, "gang":77, "hwang":100, "ga":65,
+    "na":92, "la":90, "wang":100, "gu":79
+}
+
+# 90이상인 사람의 이름만 출력
+
+# 내가 만든 답안
+# print(members.keys())
+# print(members.values())
+# list_members = list(members)
+# list_values=list(members.values())
+#
+# for i in range(len(list_members)):
+#     if list_values[i] >= 90:
+#         print(f'90점 이상인 사람은 {list_members[i]}입니다.')
+#         i += 1
+
+# 90이상의 사람의 이름만 출력 ()
+for item in members.items():
+    if item[1] >= 90:
+        print(f'이름 : {item[0]}')
+
+
+# key in dic : 해당 키가 사전에 존재하는지 확인
+
+yn = 'kim' in members
+print(f'kim이 있는가? {yn}')
+
+yn = 'Jung' in members
+print(f'Jung이 있는가? {yn}')
