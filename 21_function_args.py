@@ -19,4 +19,18 @@ print(tuple_args(1,2,3,4,5))
 
 # ** 는 매개변수를 사전형태로 받겠다.
 def dic_args(**dic):
-    pass
+    # 1.dic 에서 값만 빼온다.
+    values = dic.values()
+    print(values)
+    # 2. 이 값들을 하나씩 더해 누적시킨다.
+    total = 0
+    for v in values:
+        total += v
+    # 3. 누적시킨 값을 밖으로 return 한다.
+    return total
+
+
+result = dic_args(kim=50, lee=100, park=70, na=90)
+print(result)
+
+# 계획 세우는것이 중요!
