@@ -1,5 +1,7 @@
 # 반환타입: O 매개변수: O 음료자판기
 # return vs print
+# print -> 출력
+# return -> 실제로 반환
 def drinkmachine(drink): # 선언: 만들어만놨지 누가 사용한건 아님
     print(f'차가운 {drink}') # 실질적 동작이 아님, 사람눈에만 보이는거
     return f'자판기에서 나온 {drink}' # 실제로 밖으로 나오는 값
