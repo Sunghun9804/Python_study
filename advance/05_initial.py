@@ -14,3 +14,4 @@ class Puppy:
 puppy = Puppy("멍멍이","집지키기")
 
 # 이해를 해보자! -> 저 과정을 설명할 수 있어야 한다.
+print(f'이름: {puppy.name} / 목적: {puppy.goal}')
