@@ -1,6 +1,7 @@
 class Robot:
 
     # 생성자?
+    # self?
     def __init__(self):
         pass
 
