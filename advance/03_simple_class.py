@@ -11,3 +11,5 @@ std3 = Student()
 print(f'std1: {std1}') # -> 0x000001D74AD970E0
 print(f'std2: {std2}') # -> 0x000001D74B024E10
 print(f'std3: {std3}') # -> 0x000001D74B024F50
+
+# class는 앞에 대문자 사용하자!
