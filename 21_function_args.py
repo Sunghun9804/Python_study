@@ -18,4 +18,5 @@ def tuple_args(*numbers):
 print(tuple_args(1,2,3,4,5))
 
 # ** 는 매개변수를 사전형태로 받겠다.
-def dic_args
+def dic_args(**dic):
+    pass
