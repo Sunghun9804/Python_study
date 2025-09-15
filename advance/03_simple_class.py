@@ -8,6 +8,6 @@ std2 = Student()
 std3 = Student()
 # 일련번호가 서로 다르다.
 # 파이썬 에서도 객체화는 복사를 의미하므로 서로 다른 객체는 같지 않다.
-print(f'std1: {std1}')
-print(f'std2: {std2}')
-print(f'std3: {std3}')
+print(f'std1: {std1}') # -> 0x000001D74AD970E0
+print(f'std2: {std2}') # -> 0x000001D74B024E10
+print(f'std3: {std3}') # -> 0x000001D74B024F50
