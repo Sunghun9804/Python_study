@@ -1,0 +1,8 @@
+# java 에서는 파일명 == 클래스명
+# Python 에서는 꼭 그렇지 않다.
+class Student: # Student 라는 클래스(학생과 관련된 함수 및 연수가 들어오겠구나 라고 예측 가능)
+    pass # pass 는 함수나 클래스에 아무것도 없을때 오류방지를 위해 넣는 키워드
+
+std1 = Student() # 객체화
+std2 = Student()
+std3 = Student()
